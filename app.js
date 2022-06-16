@@ -12,7 +12,10 @@ app.get('/', (req, res) => {
 	res.render('index', { projects: data.projects });
 });
 
-app.get('/about', (req, res) => {
+app.get('/about', (req, res, next) => {
+	// const testError = new Error('uh oh');
+	// testError.status = 500;
+	// next(testError);
 	res.render('about');
 });
 
@@ -33,11 +36,11 @@ app.get('/project/:id', (req, res, next) => {
 app.use((req, res, next) => {
 	const err = new Error('Not Found');
 	err.status = 404;
-	next(err);
+	console.log(err.message, err.status);
+	res.render('page-not-found', { err });
 });
 
 app.use((err, req, res, next) => {
-	//res.locals = err;
 	res.status(500);
 	res.render('error', { err });
 });

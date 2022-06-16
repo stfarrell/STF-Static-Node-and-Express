@@ -300,6 +300,17 @@ nav a span {
   border: 1px solid transparent;
 }
 
+.errorImg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
+
+.centerIt{
+  text-align: center;
+}
+
 
 /* 
   Tablet layout styles 

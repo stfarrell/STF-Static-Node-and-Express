@@ -1,6 +1,6 @@
 extends layout 
-block content
-    div.centerIt 
+block content 
+    div.centerIt
         h1 #{err.message} 
         h2 #{err.status} 
         pre #{err.stack}
@@ -8,4 +8,4 @@ block content
         h1 
             a(href='/') Home
 
-    img(src='/public/images/errorPic.jpg')
+    img.errorImg(src='/public/images/errorPic.jpg')
