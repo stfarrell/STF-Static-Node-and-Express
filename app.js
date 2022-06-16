@@ -17,14 +17,17 @@ app.get('/about', (req, res) => {
 });
 
 app.get('/project/:id', (req, res) => {
-	console.log(req.params);
-	res.render('project', {
-		projectName: data.projects[req.params.id].project_name,
-		description: data.projects[req.params.id].description,
-		technologies: data.projects[req.params.id].technologies,
-		repo: data.projects[req.params.id].github_link,
-		imageURLs: data.projects[req.params.id].image_urls,
-	});
+	console.dir(req.params);
+	if (req.params.id < data.projects.length) {
+		res.render('project', {
+			projectName: data.projects[req.params.id].project_name,
+			description: data.projects[req.params.id].description,
+			technologies: data.projects[req.params.id].technologies,
+			repo: data.projects[req.params.id].github_link,
+			imageURLs: data.projects[req.params.id].image_urls,
+		});
+	}
+	next();
 });
 
 app.use((req, res, next) => {
