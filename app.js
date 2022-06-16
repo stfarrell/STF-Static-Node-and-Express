@@ -16,7 +16,7 @@ app.get('/about', (req, res) => {
 	res.render('about');
 });
 
-app.get('/project/:id', (req, res) => {
+app.get('/project/:id', (req, res, next) => {
 	console.dir(req.params);
 	if (req.params.id < data.projects.length) {
 		res.render('project', {

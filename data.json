@@ -6,7 +6,7 @@
         "technologies": ["JavaScript"],
         "live_link": "file:///C:/Users/Sean/Documents/Treehouse/TreehouseProjects/STF_RandomQuoteGenerator/index.html",
         "github_link":"https://github.com/stfarrell/STF_RandomQuoteGenerator.git", 
-        "image_urls": ["public/images/RandomQuoteLandingPage.PNG", "public/images/RandomQuote2.PNG"]
+        "image_urls": ["/public/images/RandomQuoteLandingPage.PNG", "/public/images/RandomQuote2.PNG"]
     },
     {
         "id": 1,
@@ -15,7 +15,7 @@
         "technologies": ["JavaScript"],
         "live_link": "file:///C:/Users/Sean/Documents/Treehouse/TreehouseProjects/STF-Data-Pagination-and-Filtering/index.html",
         "github_link": "https://github.com/stfarrell/STF-Data-Pagination-and-Filtering.git", 
-        "image_urls": ["public/images/DataPaginationLandingPage.PNG", "public/images/DataPaginationFilterSearch.PNG"]
+        "image_urls": ["/public/images/DataPaginationLandingPage.PNG", "/public/images/DataPaginationFilterSearch.PNG"]
     },
     {
         "id": 2,
@@ -24,7 +24,7 @@
         "technologies": ["JavaScript"],
         "live_link": "file:///C:/Users/Sean/Documents/Treehouse/TreehouseProjects/STF-Interactive-Forms/interactive-form-v3/index.html",
         "github_link": "https://github.com/stfarrell/STF-Interactive-Forms.git", 
-        "image_urls": ["public/images/InteractiveFormLandingPage.PNG","public/images/InteractiveFormActivities.PNG"]
+        "image_urls": ["/public/images/InteractiveFormLandingPage.PNG","/public/images/InteractiveFormActivities.PNG"]
     },
     {
         "id": 3,
@@ -33,7 +33,7 @@
         "technologies": ["JavaScript"],
         "live_link": "file:///C:/Users/Sean/Documents/Treehouse/TreehouseProjects/STF-OOP-Game-Show-App/index.html",
         "github_link": "https://github.com/stfarrell/STF-OOP-Game-Show-App.git", 
-        "image_urls":["public/images/OOPLandingPage.PNG","public/images/OOPGamePlay.PNG"]
+        "image_urls":["/public/images/OOPLandingPage.PNG","/public/images/OOPGamePlay.PNG"]
     },
     {
         "id": 4,
@@ -42,6 +42,6 @@
         "technologies": ["JavaScript", "APIs"],
         "live_link": "file:///C:/Users/Sean/Documents/Treehouse/TreehouseProjects/STF-Public-API-Requests/student-files/index.html",
         "github_link": "https://github.com/stfarrell/STF-Public-API-Requests.git", 
-        "image_urls": ["public/images/APILandingPage.PNG","public/images/APIModal.PNG"]
+        "image_urls": ["/public/images/APILandingPage.PNG","/public/images/APIModal.PNG"]
     }
 ]}
