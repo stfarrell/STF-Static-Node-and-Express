@@ -4,7 +4,7 @@
         "project_name": "STF_RandomQuoteGenerator",
         "description": "Project one of Treehouse Tech Degree in which quotes are randomly generated.",
         "technologies": ["JavaScript"],
-        "live_link": "file:///C:/Users/Sean/Documents/Treehouse/TreehouseProjects/STF_RandomQuoteGenerator/index.html",
+        "live_link": "https://stfarrell.github.io/STF_RandomQuoteGenerator/",
         "github_link":"https://github.com/stfarrell/STF_RandomQuoteGenerator.git", 
         "image_urls": ["/public/images/RandomQuoteLandingPage.PNG", "/public/images/RandomQuote2.PNG"]
     },
@@ -13,7 +13,7 @@
         "project_name": "STF Data Pagination and Filtering",
         "description": "Team Treehouse Full Stack Development Project 2!",
         "technologies": ["JavaScript"],
-        "live_link": "file:///C:/Users/Sean/Documents/Treehouse/TreehouseProjects/STF-Data-Pagination-and-Filtering/index.html",
+        "live_link": "https://stfarrell.github.io/STF-Data-Pagination-and-Filtering/",
         "github_link": "https://github.com/stfarrell/STF-Data-Pagination-and-Filtering.git", 
         "image_urls": ["/public/images/DataPaginationLandingPage.PNG", "/public/images/DataPaginationFilterSearch.PNG"]
     },
@@ -22,7 +22,7 @@
         "project_name": "STF Ineractive Forms",
         "description": "Treehouse Tech degree Project 3 in which an interactive form is created!",
         "technologies": ["JavaScript"],
-        "live_link": "file:///C:/Users/Sean/Documents/Treehouse/TreehouseProjects/STF-Interactive-Forms/interactive-form-v3/index.html",
+        "live_link": "https://stfarrell.github.io/STF-Interactive-Forms/interactive-form-v3/index.html",
         "github_link": "https://github.com/stfarrell/STF-Interactive-Forms.git", 
         "image_urls": ["/public/images/InteractiveFormLandingPage.PNG","/public/images/InteractiveFormActivities.PNG"]
     },
@@ -31,7 +31,7 @@
         "project_name": "STF OOP Game Show App",
         "description": "Guess the phrase!",
         "technologies": ["JavaScript"],
-        "live_link": "file:///C:/Users/Sean/Documents/Treehouse/TreehouseProjects/STF-OOP-Game-Show-App/index.html",
+        "live_link": "https://stfarrell.github.io/STF-OOP-Game-Show-App/",
         "github_link": "https://github.com/stfarrell/STF-OOP-Game-Show-App.git", 
         "image_urls":["/public/images/OOPLandingPage.PNG","/public/images/OOPGamePlay.PNG"]
     },
@@ -40,7 +40,7 @@
         "project_name": "STF Public API Requests",
         "description": "Treehouse Tech Degree project 5",
         "technologies": ["JavaScript", "APIs"],
-        "live_link": "file:///C:/Users/Sean/Documents/Treehouse/TreehouseProjects/STF-Public-API-Requests/student-files/index.html",
+        "live_link": "https://stfarrell.github.io/STF-Public-API-Requests/student-files/index.html",
         "github_link": "https://github.com/stfarrell/STF-Public-API-Requests.git", 
         "image_urls": ["/public/images/APILandingPage.PNG","/public/images/APIModal.PNG"]
     }

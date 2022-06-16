@@ -30,6 +30,7 @@ app.get('/project/:id', (req, res, next) => {
 			description: data.projects[req.params.id].description,
 			technologies: data.projects[req.params.id].technologies,
 			repo: data.projects[req.params.id].github_link,
+			liveLink: data.projects[req.params.id].live_link,
 			imageURLs: data.projects[req.params.id].image_urls,
 		});
 	}
